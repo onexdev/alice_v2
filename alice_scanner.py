@@ -8,10 +8,10 @@ Usage:
     python alice_scanner.py sc <wallet_address> p Vf <output_file>  # From only
     python alice_scanner.py h                                       # Show help
 
-Author: Enterprise Development Team
+Author: Onex_dv
 License: MIT Professional
-GitHub: https://github.com/enterprise-dev/alice-scanner
-Version: 2.0.0 Final
+GitHub: https://github.com/onexdev
+Version: 2.0.0
 """
 
 import sys
@@ -269,7 +269,7 @@ class BSCScanner:
         return str(out)
 
 # ============================================================================
-# TERMINAL INTERFACE (unchanged)
+# TERMINAL INTERFACE
 # ============================================================================
 class TerminalInterface:
     def __init__(self, logger: Logger):
